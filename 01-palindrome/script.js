@@ -14,7 +14,7 @@
  */
 
 function palindrome(str) {
-  let characters = str.toLowerCase().split("");
+  const characters = str.toLowerCase().split("");
   let palindrome = true;
 
   for (let i = 0; i++ < characters.length; i++) {

@@ -8,7 +8,7 @@
  */
 
 function uniq(arr) {
-  let result = [];
+  const result = [];
 
   for (let str of arr) {
     if (!result.includes(str)) {
